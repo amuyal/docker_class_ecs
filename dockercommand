@@ -1,0 +1,6 @@
+docker run \
+-d \
+--rm \
+-p 3030:8080 \
+-v /home/student/Desktop/par12/01/:/usr/local/tomcat/webapps \
+tomcat \
